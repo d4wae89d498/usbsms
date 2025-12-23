@@ -1,0 +1,63 @@
+# GEneraLS:
+
+
+AT
+OK
+AT+CGMI
+ERROR
+AT+CGMM
++CGMM: MTK2
+
+OK
+AT+CGMR
++CGMR: Altice_F3_DS_V01.3_220923, 2022/09/23 13:04
+
+OK
+AT+CGSN
+ERROR
+AT+GSN
+ERROR
+AT+CSCS
+ERROR
+AT+CIMI
+ERROR
+AT+CMEE
+ERROR
+
+
+# Networking
+
+# DEBUG MODE
+AT+CMEE=1
+
+# HUMAN READABLE DEBUG MODE
+AT+CMEE=2
+
+# FULL FUNC
+AT+CFUN=1
+
+# CHOOSE SIM
+AT+CSIMSEL=2
+
+
+# Signal quality
+AT+CSQ
++CSQ: 24, 99
+
+OK
+
+# Registred operators
+AT+COPS?
++COPS: 0,0,"20801"
+
+
+# Passer ou coup de fil
+
+ATD<phone_number>;
+
+# TEXTER
+
+AT+CMGF=1
+AT+CMGS="+1234567890"
+Hello<Ctrl+Z>
+
