@@ -1,4 +1,4 @@
-Demo of sending sms by usb using old phone with AT protocol for sending sms/dialing with python
+Demo of sending sms by usb using old phone with AT protocol with python
 
 Sur WSL besoin d'un passtrough USB vers WSL, installer le pilote du passtrough:
 https://learn.microsoft.com/fr-fr/windows/wsl/connect-usb
